@@ -5,3 +5,4 @@
 
 ## UI Components
 * Testimonial Card
+* Blog Card
