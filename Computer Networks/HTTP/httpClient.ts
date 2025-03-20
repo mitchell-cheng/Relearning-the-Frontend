@@ -5,9 +5,16 @@ const tcpClient = net.createConnection(8124, 'localhost', () => {
 
   const httpRequestLine = 'GET / HTTP/1.1\r\n';
   const httpRequestHeaders = 'Host: localhost:8124\r\nUser-Agent: Node.js HTTP Client\r\nAccept: */*\r\n';
-  const httpRequest = httpRequestLine + httpRequestHeaders;
-
+  const httpRequest = httpRequestLine + httpRequestHeaders; 
   tcpClient.write(httpRequest);
+  console.log('first request sent!\r\n');
+
+  const httpRequestLinePOST = 'POST / HTTP/1.1\r\n';
+  const httpRequestHHeadersPOST = 'Host: localhost:8124\r\nUser-Agent: Node.js HTTP Client\r\nAccept: */*\r\nContent-Length: 5\r\n';
+  const httpRequestBody = 'Hello';
+  const httpRequestPOST = httpRequestLinePOST + httpRequestHHeadersPOST + httpRequestBody;
+  tcpClient.write(httpRequestPOST);
+  console.log('second request sent!\r\n');
 });
 
 tcpClient.on('data', (data) => {
