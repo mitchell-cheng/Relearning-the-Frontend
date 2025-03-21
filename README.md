@@ -6,3 +6,4 @@
 ## UI Components
 * Testimonial Card
 * Blog Card
+* Profile Card
