@@ -1,5 +1,4 @@
-import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react'
-import { FixedSizeList as List } from 'react-window'
+import React, { useMemo, useRef, useState } from 'react'
 import Item from './types'
 import { generateItems } from './utils'
 

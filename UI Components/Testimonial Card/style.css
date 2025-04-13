@@ -1,66 +1,66 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
-    min-height: 812px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 auto;
-    padding-top: 200px;
-    padding-left: 17.5px;
-    padding-right: 17.5px;
+  min-height: 812px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-left: 17.5px;
+  padding-right: 17.5px;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        min-height: 1440px;
-    }
+  .container {
+    min-height: 1440px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        min-height: 768px;
-    }
+  .container {
+    min-height: 768px;
+  }
 }
 
 .testimonial-card {
-    background: #ffffff;
-    display: flex;
-    gap: 16px;
-    border-radius: 8px;
-    width: 340px;    
-    padding: 24px;
-    flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 16px;
-    line-height: 24px;
-    color: #525252;
+  background: #ffffff;
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  width: 340px;
+  padding: 24px;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
 }
 
 .testimonial-card__author {
-    display: flex;
-    gap: 16px;
-    align-items: center;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .testimonial-card__author img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 }
 
 .testimonial-card__author__info__name {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #171717;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171717;
 }
 
 .testimonial-card__author__info__username {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }

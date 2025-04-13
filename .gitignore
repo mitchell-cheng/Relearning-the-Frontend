@@ -103,4 +103,7 @@ junit.xml
 .stylelintcache
 .node_repl_history
 
+# Figures
+figures/
+
 # END of standard .gitignore

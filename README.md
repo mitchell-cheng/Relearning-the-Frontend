@@ -1,12 +1,15 @@
 # Relearning the frontend
 
 ## Computer Networks
-* Implementing a simple http protocol
+
+- Implementing a simple http protocol
 
 ## Data Structures
-* 
+
+- Array
 
 ## UI Components
-* Testimonial Card
-* Blog Card
-* Profile Card
+
+- Testimonial Card
+- Blog Card
+- Profile Card

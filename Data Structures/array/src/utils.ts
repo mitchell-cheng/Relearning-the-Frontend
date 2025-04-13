@@ -30,4 +30,4 @@ function chunk(arr: Item[], size: number) {
   return result
 }
 
-export { generateItems, chunk }
+export { chunk, generateItems }
