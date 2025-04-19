@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <header>Learn HTML semantics</header>
+    <nav>
+      <ul>
+        <li>Semantic</li>
+        <li>Form Title</li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h1>Semantic</h1>
+        <article>
+          <h2>What is semantics?</h2>
+          <p>
+            In programming, Semantics refers to the meaning of a piece of code —
+            for example "what effect does running that line of JavaScript
+            have?", or "what purpose or role does that HTML element have"
+            (rather than "what does it look like?".)
+          </p>
+        </article>
+        <aside>
+          To learn more, please visit the ![Semantics -
+          MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+        </aside>
+        <article>
+          <h2>Semantics in frontend</h2>
+          <details open>
+            <summary>Semantic HTML</summary>
+            <p>
+              In HTML, for example, the h1 element is a semantic element, which
+              gives the text it wraps around the role (or meaning) of "a top
+              level heading on your page."
+            </p>
+          </details>
+          <details>
+            <summary>Semantic CSS</summary>
+            <p>
+              In CSS, consider styling a list with li elements representing
+              different types of fruits. Would you know what part of the DOM is
+              being selected with div > ul > li, or .fruits__item?
+            </p>
+          </details>
+          <details>
+            <summary>Semantic JS</summary>
+            <p>
+              In JavaScript, consider a function that takes a string parameter,
+              and returns an element with that string as its textContent. Would
+              you need to look at the code to understand what the function did
+              if it was called build('Peach'), or createLiWithContent('Peach')?
+            </p>
+          </details>
+          <details>
+            <summary>An elephant at sunset</summary>
+            <figure>
+              <img
+                src="https://a3c3286a-7f34-4ce3-bc73-6e44e65a350d.mdnplay.dev/shared-assets/images/examples/elephant.jpg"
+                alt="an elephant at sunset"
+              />
+              <figcaption>An elephant at sunset</figcaption>
+            </figure>
+          </details>
+          <footer>
+            <address>from MDN</address>
+          </footer>
+        </article>
+      </article>
+      <article>
+        <h1>Form title</h1>
+        <form action="#" method="get"></form>
+      </article>
+    </main>
+  </body>
+</html>
